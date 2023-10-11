@@ -18,7 +18,7 @@ When you enter a URL into your browser and hit Enter, a series of processes unfo
    - DNS client checks browser/OS cache, then Resolver server, and eventually root servers if needed.
    - The authoritative name server provides the IP address, and the resolver saves this information.
 
-   ![DNS Request](dns_request.png)
+   ![DNS Request](https://photos.google.com/photo/AF1QipOCNksiJ08wWLc-AfGiFx7noWxKfl2LrBSXTQSN)
 
 2. **TCP/IP**
 
@@ -26,104 +26,41 @@ When you enter a URL into your browser and hit Enter, a series of processes unfo
    - TCP/IP operates in layers (Application, Transport, Internet, Network Access) to ensure effective data transmission.
    - Protocols like HTTP, HTTPS, and FTP govern communication between the browser and server.
 
-   ![TCP/IP](tcp_ip.png)
+   ![TCP/IP](https://photos.google.com/photo/AF1QipO98i7zjpdOprhyNrVdcawC44G8Cu6rPgMLT47d)
 
 3. **FIREWALLS**
 
    - Firewalls monitor incoming and outgoing network traffic, enhancing security by allowing or restricting communication based on predefined criteria.
    - Malware risks are mitigated by tracking conversations and exchanged packets.
 
-   ![Firewall](firewall.png)
+   ![Firewall](https://photos.google.com/photo/AF1QipOEmeOjpLVRLmVDR3Ad3mCp1eWlNBkxn2rrl0oe)
 
 4. **HTTPS/SSL**
 
    - HTTPS handles encrypted communication between the browser and server.
    - SSL (Secure Sockets Layer) ensures secure connections, and an SSL handshake process occurs at the beginning of the connection.
 
-   ![SSL Handshake](ssl_handshake.png)
+   ![SSL Handshake](https://media.licdn.com/dms/image/C4D12AQHCYoiG2PNQBA/article-cover_image-shrink_600_2000/0/1520203424571?e=2147483647&v=beta&t=lDIn6zV0TTjh4vYwkVcaOcH43dwg4XSr8b4VSYtO6Tk)
 
 5. **LOAD-BALANCER**
 
    - To handle high traffic, load balancers distribute requests from clients to multiple servers.
    - They ensure efficient load distribution, enhancing website performance.
 
-   ![Load Balancer](load_balancer.png)
+   ![Load Balancer](https://www.netscaler.com/content/dam/netscaler/images/graphics/infographics/what-is-load-balancing.png)
 
 6. **WEB SERVER & APPLICATION SERVER**
 
    - Web servers process requests and deliver static content, while application servers handle dynamic content and business logic.
    - When you type a URL, the servers respond by sending the requested content.
 
-   ![Web & App Servers](web_app_servers.png)
+   ![Web & App Servers](https://i.ytimg.com/vi/thJSev60yfg/maxresdefault.jpg)
 
 7. **DATABASE**
 
    - Databases store structured data for quick retrieval and maintenance.
    - Application servers communicate with database servers to manage data, providing tailored content based on user needs.
 
-   ![Database](database.png)
-
-## Conclusion
-
-This overview provides a glimpse into the intricate processes that occur when you interact with the web. I hope it satisfies your curiosity about the journey from entering a URL to receiving webpage content. Thank you for visiting!
-# Understanding Web Infrastructure
-
-## DNS Request
-
-When you enter a URL into your browser and hit Enter, a series of processes unfold to bring you the desired webpage.
-
-### Web Infrastructure FlowChart
-
-1. **DNS REQUEST**
-
-   - The browser initiates a DNS query to find the IP address of the server hosting the webpage.
-   - DNS client checks browser/OS cache, then Resolver server, and eventually root servers if needed.
-   - The authoritative name server provides the IP address, and the resolver saves this information.
-
-   ![DNS Request](dns_request.png)
-
-2. **TCP/IP**
-
-   - The browser sends a request to the website's server using TCP/IP for communication.
-   - TCP/IP operates in layers (Application, Transport, Internet, Network Access) to ensure effective data transmission.
-   - Protocols like HTTP, HTTPS, and FTP govern communication between the browser and server.
-
-   ![TCP/IP](tcp_ip.png)
-
-3. **FIREWALLS**
-
-   - Firewalls monitor incoming and outgoing network traffic, enhancing security by allowing or restricting communication based on predefined criteria.
-   - Malware risks are mitigated by tracking conversations and exchanged packets.
-
-   ![Firewall](firewall.png)
-
-4. **HTTPS/SSL**
-
-   - HTTPS handles encrypted communication between the browser and server.
-   - SSL (Secure Sockets Layer) ensures secure connections, and an SSL handshake process occurs at the beginning of the connection.
-
-   ![SSL Handshake](ssl_handshake.png)
-
-5. **LOAD-BALANCER**
-
-   - To handle high traffic, load balancers distribute requests from clients to multiple servers.
-   - They ensure efficient load distribution, enhancing website performance.
-
-   ![Load Balancer](load_balancer.png)
-
-6. **WEB SERVER & APPLICATION SERVER**
-
-   - Web servers process requests and deliver static content, while application servers handle dynamic content and business logic.
-   - When you type a URL, the servers respond by sending the requested content.
-
-   ![Web & App Servers](web_app_servers.png)
-
-7. **DATABASE**
-
-   - Databases store structured data for quick retrieval and maintenance.
-   - Application servers communicate with database servers to manage data, providing tailored content based on user needs.
-
-   ![Database](database.png)
 
 ## Conclusion
 
